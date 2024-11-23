@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu proyec</title>
+<style>
+    body{
+        font-family: arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        background-color:#333;
+        padding: 10px 0;
+    }
+    nav ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+         margin: 0 15px;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        font-weight: bold;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    nav ul li a:hover{
+        background-color: #555;
+        border-radius: 5px;
+        color:#ffd700;
+    }
+    .content{
+        padding: 20px;
+        text-align: center;
+    }
+    @media(max-width:600px){
+        nav ul{
+            flex-direction: column;
+        }
+        nav ul li{
+            margin: 10px 0;
+        }
+    }
+</style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="E:/WEB/incio.html"> INICIO</a></li>
+        <LI><a href="E:/WEB/ACE.html"> ACERCA DE</a></LI>
+        <li><a href="E:/WEB/SER.html">SERVICIOS</a></li>
+        <LI><A href="E:/WEB/POR.html"> PORTAFOLIO</A></LI>
+        <li> <a href="E:/WEB/CONTAC.html"> CONTACTO</a></li>
+    </ul>
+</nav> 
+<style>
+    table{
+        width: 25%;
+        border-collapse: collapse;
+    }
+    th, td{
+        border: 3px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+</style>
+<center><table>
+    <tr>
+        <th><img src="planta.jpeg" width="100%"><br>  COMPOSTAJE CON UNA PLANTITA<br> PRECIO: $25  </th>
+        <th><img src="saco.jpeg" width="100%"><br>  COMPOSTAJE SOLITO 5K<br> PRECIO: $45 </th>
+        <th><img src="bonsai.jpeg" width="100%"><br>  COMPOSTAJE DE 4K Y PLANTITA (BONSAI)<br> PRECIO: $50  </th>
+    </tr>
+</table>
+</center>
+</body>
+</html>
